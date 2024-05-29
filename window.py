@@ -22,11 +22,6 @@ class Window(QtWidgets.QMainWindow):
         self.Create_Modes_Widget()
         self.Create_Stacked_Widget()
 
-        self.Up_Bttn.clicked.connect(self.up_button_clicked)
-        self.Down_Bttn.clicked.connect(self.down_button_clicked)
-        self.Left_Bttn.clicked.connect(self.left_button_clicked)
-        self.Right_Bttn.clicked.connect(self.right_button_clicked)
-
         with open("styles.css", "r") as file:
             self.setStyleSheet(file.read())
 

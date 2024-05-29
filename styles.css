@@ -2,7 +2,6 @@ QMainWindow {
     background-color: #2E2E2E;
     color: #E0E0E0;
     font-family: Arial, sans-serif;
-    font-size: 20px;
 }
 
 QLabel {
@@ -58,12 +57,14 @@ QWidget#page1 {
 }
 
 QWidget#page2 {
+    font-size: 24px;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
 }
 
 QWidget#page3 {
+    font-size: 24px;
     padding: 10px;
     border-radius: 10px;
     background-color: #666;

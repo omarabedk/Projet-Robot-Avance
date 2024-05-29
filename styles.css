@@ -1,0 +1,96 @@
+QMainWindow {
+    background-color: #2E2E2E;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+QLabel {
+    color: #E0E0E0;
+    font-size: 21px;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton:pressed {
+    background-color: #3e8e41;
+}
+
+QWidget#camera_widget {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #666;
+    margin: 10px;
+}
+
+QWidget#modes_widget {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #666;
+    margin: 10px;
+}
+
+QStackedWidget {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #666;
+    margin: 10px;
+}
+
+QWidget#page1 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+QWidget#page2 {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+QWidget#page3 {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #666;
+    margin: 10px;
+}
+
+QMenuBar {
+    background-color: #666;
+    color: #FFFFFF;
+}
+
+QMenuBar::item {
+    background-color: #666;
+    color: #FFFFFF;
+}
+
+QMenuBar::item:selected {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
+
+QMenu {
+    background-color: #666;
+    color: #FFFFFF;
+}
+
+QMenu::item:selected {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+}
